@@ -1,0 +1,5 @@
+#Hacer una RAMA local desde la rama actual
+    git checkout -b Develop
+
+#Conectar rama LOCAL a una rama REMOTA Existente/No existente\
+     git push origin Develop:Develop
