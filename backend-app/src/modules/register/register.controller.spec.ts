@@ -4,7 +4,7 @@ import { RegisterController } from './register.controller';
 describe('RegisterController', () => {
   let controller: RegisterController;
 
-  beforeEach(async () => {
+  beforeEach(async () => {  
     const module: TestingModule = await Test.createTestingModule({
       controllers: [RegisterController],
     }).compile();
